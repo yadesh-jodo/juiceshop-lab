@@ -1,4 +1,15 @@
-# Juice Shop Isolated Lab
+# Ethical Hacking Lab: Juice Shop
+
+Practice repository for an isolated OWASP Juice Shop lab on my Mac.
+
+| Task | What it covers | Link |
+|---|---|---|
+| Task 1 | Legal scope, isolated lab, rules of engagement | This page |
+| Task 2 | Local recon and attack surface map | [recon/](recon/) |
+
+---
+
+# Task 1: Legal Scope and Isolated Lab
 
 I built a local practice lab running OWASP Juice Shop in Docker on my Mac.
 
@@ -45,3 +56,14 @@ docker run -d --name juice-shop -p 127.0.0.1:3000:3000 bkimminich/juice-shop
 
 - [Rules of Engagement](ROE.md)
 - [Topology diagram](topology.png)
+
+---
+
+# Task 2: Recon and Attack Surface Map
+
+I enumerated only the authorized lab target (127.0.0.1:3000) and turned the
+results into a structured attack surface inventory with risk hypotheses.
+Nothing was exploited.
+
+- [Attack surface map](recon/ATTACK_SURFACE.md)
+- [Task 2 summary and raw evidence](recon/)
